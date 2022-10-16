@@ -1,0 +1,110 @@
+@import '../styles/Variables.scss';
+
+.containerDest{
+    height: 850px;
+    width: 100%;
+    background: rgb(179,179,179);
+    background: linear-gradient(90deg, rgba(179,179,179,1) 0%, rgba(191,217,233,1) 100%, rgba(255,255,255,1) 100%);
+}
+#offcanvasNavbar-expand-md {
+    width: 70%;
+}
+.titleDest{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.titleDest h2{
+    font-family: $font__primary;
+}
+.titleDest h4{
+    padding-top: 1%;
+}
+.line{
+    border-bottom: 1px solid black;
+    margin: 0 30% 0 30%;
+}
+.pics{
+    height: 80%;
+    width: 100%;
+}
+.firtsPics{
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.dest1{
+    width: 50%;
+    padding: 0 5% 0 5%;
+}
+.relative{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.relative img{
+    width: 100%;    
+    object-fit: cover;
+    height: 90%;
+}
+.country{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+}
+.dest2{
+    width: 50%;
+    padding: 0 5% 0 5%;
+}
+.relative img:hover{
+    filter: saturate(2.5);
+}
+
+.secondPics{
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.dest3{
+    width: 33%;
+    padding: 0 3% 0 3%;
+}
+.dest4{
+    width: 34%;
+    padding: 0 3% 0 3%;
+}
+.dest5{
+    width: 33%;
+    padding: 0 3% 0 2%;
+}
+@media (max-width: 800px){
+    .containerDest{
+        height: 600px;
+    }
+}
+@media (max-width: 700px){
+    .containerDest{
+        height: 700px;
+    }
+    .firtsPics{
+        height: 60%;
+    }
+    .secondPics{
+        height: 35%;
+    }
+}
+@media (max-width: 500px){
+    .containerDest{
+        height: 650px;
+    }
+    .firtsPics{
+        height: 60%;
+    }
+    .secondPics{
+        height: 40%;
+    }
+}

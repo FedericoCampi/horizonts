@@ -1,0 +1,117 @@
+@import "Variables.scss";
+
+.containerFooter{
+    background-image: url(../assets/backMountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 50px;
+    height: 100%;
+}
+.Lists{
+    display: flex;
+    padding: 0 5% 0 5%;
+    flex-wrap: wrap;
+}
+.firstDiv{
+    display: flex;
+    flex-grow: 1;
+}
+.footer-list{
+    list-style: none;
+    text-align: start;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+.footer-list p{
+    color: #cdcd25;
+    font-size: 1.5rem;
+}
+.footer-list a{
+    color: white;
+    text-decoration: none;
+}
+.footer-list a:hover{
+    color: #24242c;
+}
+.secondDiv{
+    flex-grow: 1;
+}
+.thirdDiv{
+    flex-grow: 1;
+}
+.fourthDiv{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+}
+.fourthDiv p{
+    text-align: start;
+    color: white;
+}
+.fourthDiv p:first-child{
+    font-size: 1.5rem;
+    color: #cdcd25;
+}
+.mail{
+    background-color: white;
+    border-radius: 10px;
+}
+.mail Input{
+    text-decoration: none;
+    height: 30px;
+}
+.mail Button{
+    background-color: #24242c;
+    color: #cdcd25;
+    height: 100%;
+    padding-top: 10px;
+}
+.mail Button:hover{
+    color: #24242c;
+}
+.endFooter{
+    display: flex;
+    padding: 3% 5% 0 5%;
+}
+.endDiv1{
+    flex-grow: 1;
+}
+.endDiv1 h3{
+    color: white;
+    text-align: start;
+    font-family: $font__primary;
+}
+.endDiv2{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.endDiv2 p{
+    color: white;
+    padding-top: 1%;
+}
+.endDiv3{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.endDiv3 img{
+    padding-left: 5px;
+    width: 55px;
+}
+@media (max-width: 767px){
+    .endDiv2{
+        display: none;
+    }
+    .endDiv1 h3{
+        padding-top: 5%;
+    }
+}
+
+
+

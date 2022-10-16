@@ -1,0 +1,63 @@
+@import "Variables.scss";
+
+.containerCInfo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15% 5% 20% 0;
+}
+.titlePage{
+    text-align: end;
+    width: 50%;
+}
+.titlePage h1{
+    font-size: 3rem;
+    color: $title__home;
+}
+.titlePage h2{
+    font-size: 2.5rem;
+    color: $title__home;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: $font__secondary;
+}
+.buton0{
+    width: 10px;
+}
+.titlePage .buton1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: #1c1c2c;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+.titlePage .buton1:hover{
+    background-color: #24242c;
+    color: white;
+}
+.titlePage .buton2{
+    border-radius: 15px;
+    color: #1c1c2c;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+.titlePage .buton2{
+    color: white;
+    background-color: #24242c;
+}
+.titlePage .buton2:hover{
+    background-color: rgb(255, 255, 255);
+    color: #1c1c2c;
+}
+.Carousel a{
+    visibility: hidden;
+}
+
+@media (max-width: 767px){
+    .titlePage{
+        display: none;
+    }
+}

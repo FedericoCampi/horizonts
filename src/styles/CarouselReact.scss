@@ -1,0 +1,93 @@
+@import "/src/styles/Variables.scss";
+
+.containerCarousel{
+    position: relative;
+    height: 100vh;
+}
+.headerr{
+        background: rgb(179,179,179);
+        background: linear-gradient(90deg, rgba(179,179,179,1) 0%, rgba(191,217,233,1) 100%, rgba(255,255,255,1) 100%);
+}
+.Carousel{
+    height: 100%;
+}
+.sliderImg{
+    width: 100%;
+}
+.sliderImg img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.containerOff{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    height: 100%;
+}
+.headerr{
+    padding: 0 5% 0 5%;
+    background: transparent;
+}
+.CarouselInfo{
+    height: 85%;
+}
+.mobileIntro{
+    height: 85%;
+}
+.titleMobile{
+    padding-bottom: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleMobile h3{
+    font-family: $font__primary;
+    font-size: 4rem;
+}
+.goDown{
+    width: 100%;
+    position: absolute;
+    bottom: 4%;
+    padding: 0 1% 1% 0;
+}
+.arrowDown img{
+    width: 35px;
+}
+@keyframes slidein {
+    from {
+        margin-top: 0%;
+        width: 100%
+    }
+    to {
+        margin-top: 1%;
+        width: 100%;
+    }
+}
+@media (min-width: 767px){
+    .mobileIntro{
+        display: none;
+    }
+}
+@media(max-width: 500px){
+    .titleMobile{
+        padding-bottom: 30%;
+    }
+    .titleMobile h3{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 767px){
+    .headerr{
+        background-image: url(../assets/backMountain.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        // background: rgb(179,179,179);
+        // background: linear-gradient(180deg, rgba(179,179,179,1) 20%, rgba(151,197,224,1) 100%);
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+}

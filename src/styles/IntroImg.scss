@@ -1,0 +1,67 @@
+.imgContainer{
+    position: relative;
+}
+.imgDiv{
+    background-color: black;
+    position: relative;
+}
+.motorImg{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.5;
+}
+.introContainer{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.textDiv{
+    width: 50%;
+    background-color: transparent;
+    padding: 5% 0 0 5%;
+}
+.textDiv h4{
+    color: white;
+    text-align: start;
+    font-size: 2rem;
+}
+.textDiv p{
+    color: yellow;
+    text-align: start;
+    font-size: 1.3rem;
+}
+.botonDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+    padding-bottom: 5%;
+}
+.boton Button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: #1c1c2c;
+    padding-right: 10px;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+.boton Button:hover{
+    background-color: #24242c;
+    color: white;
+}
+
+@media (max-width: 600px){
+    .introContainer{
+        display: grid;
+    }
+    .textDiv{
+        width: 100%;
+    }
+    .botonDiv{
+        width: 100%;
+    }
+}

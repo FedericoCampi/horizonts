@@ -1,0 +1,107 @@
+@import "/src/styles/Variables.scss";
+
+
+.headerLogo img{
+    width: 80px;
+}
+.imgLogo{
+    width: 80px;
+}
+.navCanvas{
+    display: contents;
+}
+.offCanvas{
+    height: 85%;
+    width: 100%;
+}
+.developed{
+    width: 100%;
+    height: 15%;
+    background: rgb(179,179,179);
+    background: linear-gradient(90deg, rgba(179,179,179,1) 0%, rgba(191,217,233,1) 100%, rgba(255,255,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.developed h2{
+    text-align: center;
+}
+.developed h3{
+    text-align: center;
+}
+.grow1{
+    display: flex;
+    justify-content: flex-start;
+}
+.grow1 img{
+    width: 100px;
+}
+.grow2{
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grow3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.grow3 h4{
+    font-family: $font__primary;
+}
+.offItems h4{
+    color: black;
+    font-size: 1.2rem;
+}
+#offcanvasNavbarDropdown-expand-md{
+    color: black;
+}
+
+
+@media (max-width: 767px){
+    .offBack{
+        background: rgb(28,28,44);
+        background: linear-gradient(167deg, rgba(28,28,44,1) 0%, rgba(38,38,54,1) 50%, rgba(36,36,52,1) 100%);
+    }
+    .boddy{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .grow1{
+        display: none;
+    }
+    .grow2{
+        flex-grow: 0;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .navv{
+        width: 80%;
+    }
+    .offItems h4{
+        text-align: end;
+        color: white;
+    }
+    .offItems{
+        width: 100%;
+        border-bottom: 1px solid yellow;
+    }
+    .grow3{
+        padding-top: 5%;
+        align-items: start;
+        flex-grow: 3;
+    }
+    .grow3 h4{
+        color: white;
+    }
+}
+@media (min-width: 767px){
+    .imgMobile{
+        display: none;
+    }
+    .developed{
+        display: none;
+    }
+}

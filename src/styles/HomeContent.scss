@@ -1,0 +1,116 @@
+@import '/src/styles/Variables.scss';
+
+.containerHome{
+    width: 100%;
+    height: 300px;
+    background: rgb(28,28,44);
+    background: linear-gradient(167deg, rgba(28,28,44,1) 0%, rgba(38,38,54,1) 50%, rgba(36,36,52,1) 100%);
+}
+.line{
+    margin: 0 5% 0 5%;
+    border-bottom: 1px solid white;
+}
+.stats{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+.div1{
+    width: 33%;
+}
+.div11{
+    height: 20%;
+}
+.div12{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+    flex-direction: column;
+    color: white;
+}
+.div13{
+    height: 20%;
+}
+.div2{
+    width: 34%;
+}
+.div21{
+    height: 20%;
+}
+.div22{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+    flex-direction: column;
+    color: white;
+}
+.div23{
+    height: 20%;
+}
+.div3{
+    width: 33%;
+}
+.div31{
+    height: 20%;
+}
+.div32{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.div33{
+    height: 20%;
+}
+
+.noNone{
+    height: 50%;
+    width: 100%;
+}
+.titleNone h2{
+    font-size: 4rem;
+    text-align: end;
+}
+.titleNone h3{
+    font-size: 2rem;
+    text-align: end;
+}
+.textHome{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 5%;
+}
+.textHome img{
+    height: 100px;
+    
+}
+.textHome h2{
+    font-size: 4rem;
+    padding-top: 1%;
+    color: #cdcd25;
+    font-family: $font__primary;
+}
+@media (max-width: 500px){
+    .div2{
+        display: none;
+    }
+    .div1{
+        width: 50%;
+    }
+    .div3{
+        width: 50%;
+    }
+    .textHome h2{
+        font-size: 3rem;
+    }
+}
