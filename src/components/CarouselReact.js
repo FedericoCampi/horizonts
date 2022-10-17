@@ -49,7 +49,7 @@ export function CarouselReact() {
                         </div>
                         
                     </div>
-                    <div className='CarouselInfo'>
+                    <div data-aos="fade-left" data-aos-duration="2000" className='CarouselInfo'>
                         <CarouselInfo></CarouselInfo>
                     </div>
                     <div className='goDown'>

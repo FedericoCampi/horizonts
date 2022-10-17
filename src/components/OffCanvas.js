@@ -46,9 +46,9 @@ export const OffCanvas = () => {
                             <div className='grow2'>
                                 <Nav className="navv">
                                 <Nav.Link href="#" className="offItems"><h4>Home</h4></Nav.Link>
-                                <Nav.Link href="#action1" className="offItems"><h4>About Us</h4></Nav.Link>
+                                <Nav.Link href="#about" className="offItems"><h4>About Us</h4></Nav.Link>
                                 
-                                <Nav.Link href="#action2" className="offItems"><h4>Contact Us</h4></Nav.Link>
+                                <Nav.Link href="#foot" className="offItems"><h4>Contact Us</h4></Nav.Link>
                                 
                                 </Nav>
                                 

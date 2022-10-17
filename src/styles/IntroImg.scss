@@ -21,7 +21,7 @@
 .textDiv{
     width: 50%;
     background-color: transparent;
-    padding: 5% 0 0 5%;
+    padding: 5% 5% 0 5%;
 }
 .textDiv h4{
     color: white;
@@ -29,7 +29,7 @@
     font-size: 2rem;
 }
 .textDiv p{
-    color: yellow;
+    color: #cdcd25;
     text-align: start;
     font-size: 1.3rem;
 }
@@ -42,12 +42,11 @@
     padding-bottom: 5%;
 }
 .boton Button{
-    background-color: rgb(255, 255, 255);
+    background-color: #cdcd25;
     border-radius: 15px;
     color: #1c1c2c;
     padding-right: 10px;
     font-weight: bolder;
-    opacity: 0.8;
 }
 .boton Button:hover{
     background-color: #24242c;

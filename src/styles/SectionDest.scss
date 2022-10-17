@@ -30,6 +30,17 @@
     height: 80%;
     width: 100%;
 }
+.relative img { 
+    transition: var(--transition-2);
+    opacity: 0.9;
+}
+.relative:is(:hover, :focus) img { 
+    transform: scale(1.1); 
+}
+.relative:is(:hover, :focus) h6 { 
+    color: white; 
+}
+
 .firtsPics{
     height: 70%;
     display: flex;
@@ -49,18 +60,25 @@
     width: 100%;    
     object-fit: cover;
     height: 90%;
+    border-radius: 10px;
 }
 .country{
     position: absolute;
     bottom: 15%;
     left: 10%;
 }
+.country h5{
+    color: #cdcd25;
+    font-family: $font__primary;
+    font-size: 2rem;
+    -webkit-text-stroke: 1px white;
+}
+.country h6{
+    font-size: 1.5rem;
+}
 .dest2{
     width: 50%;
     padding: 0 5% 0 5%;
-}
-.relative img:hover{
-    filter: saturate(2.5);
 }
 
 .secondPics{
@@ -106,5 +124,16 @@
     }
     .secondPics{
         height: 40%;
+    }
+    .country h5{
+        font-size: 1.5rem;
+    }
+    .country h6{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 450px){
+    .country h5{
+        font-size: 1.2rem;
     }
 }

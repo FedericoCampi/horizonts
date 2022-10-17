@@ -1,4 +1,4 @@
-import { Button, Input } from '@mui/material';
+import { Button, Input, Link } from '@mui/material';
 import React from 'react';
 import linkin from '../assets/icons/linkedin.png'
 import fb from '../assets/icons/facebook.png'
@@ -8,7 +8,7 @@ import '../styles/Footer.scss';
 
 export const Footer = () => {
 return (
-    <div className="containerFooter">
+    <div className="containerFooter" id="foot">
         <div className='Lists'>
             <div className="firstDiv">
                 <ul class="footer-list">
@@ -93,12 +93,18 @@ return (
                 <p>© 2022 codewithsadee. All Rights Reserved</p>
             </div>
             <div className='endDiv3'>
-                <img src={linkin} alt='linkedin'>
-                </img>
-                <img src={fb} alt='facebook'>
-                </img>
-                <img src={gh} alt='github'>
-                </img>
+                <Link href="https://www.linkedin.com/in/federico-campi/" target="_blank">
+                    <img src={linkin} alt='linkedin'> 
+                    </img>
+                </Link>
+                <Link>
+                    <img src={fb} alt='facebook'>
+                    </img>
+                </Link>
+                <Link href="https://github.com/FedericoCampi" target="_blank">
+                    <img src={gh} alt='github'>
+                    </img>
+                </Link>
             </div>
         </div>
     </div>

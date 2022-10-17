@@ -5,6 +5,9 @@
   font-family: $font__secondary;
   font-weight: 900;
 }
+.App{
+  scroll-behavior: smooth;
+}
 
 .App-logo {
   height: 40vmin;

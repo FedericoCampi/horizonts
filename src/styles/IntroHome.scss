@@ -72,7 +72,19 @@
 @media(max-width: 767px){
     .containerDivs1{
         height: 400px;
-    }   
+    }
+    .text h2{
+        font-size: 2rem;
+    }
+    .text1 h2{
+        font-size: 2rem;
+    }
+    .text h4{
+        font-size: 1.5rem;
+    }
+    .text1 h4{
+        font-size: 1.5rem;
+    }      
 }
 @media (max-width: 500px){
     .containerDivs1{
@@ -92,5 +104,11 @@
     }
     .text1 h4{
         text-align: start;
+    }
+    .text h2{
+        font-size: 1.5rem;
+    }
+    .text1 h2{
+        font-size: 1.5rem;
     }
 }
