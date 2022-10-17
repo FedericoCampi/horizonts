@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import '../styles/CarouselReact.scss'
 import CarouselInfo from './CarouselInfo';
 import OffCanvas from './OffCanvas';
-import arrow from '../assets/icons/down-arrow.png'
 
 export function CarouselReact() {
 
@@ -43,22 +42,10 @@ export function CarouselReact() {
                     <div data-aos="fade-down" data-aos-duration="2000" className="headerr">
                         <OffCanvas></OffCanvas>
                     </div>
-                    <div className='mobileIntro'>
-                        <div className='titleMobile'>
-                            <h3>Horizonts</h3>
-                        </div>
-                        
-                    </div>
+                    
                     <div data-aos="fade-left" data-aos-duration="2000" className='CarouselInfo'>
                         <CarouselInfo></CarouselInfo>
                     </div>
-                    <div className='goDown'>
-                        <div className='arrowDown'>
-                            <img src={arrow} alt="arrowDown">
-                            </img>
-                        </div>
-                    </div>
-
                 </div>
             </div> 
         </>
