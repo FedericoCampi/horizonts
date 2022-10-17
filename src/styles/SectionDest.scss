@@ -38,7 +38,7 @@
     transform: scale(1.1); 
 }
 .relative:is(:hover, :focus) h6 { 
-    color: white; 
+    color: white;
 }
 
 .firtsPics{
@@ -75,6 +75,7 @@
 }
 .country h6{
     font-size: 1.5rem;
+    color: #24242c;
 }
 .dest2{
     width: 50%;
@@ -98,6 +99,26 @@
 .dest5{
     width: 33%;
     padding: 0 3% 0 2%;
+}
+@media (max-width: 1000px){
+    .dest3 .relative .country{
+        opacity: 0;
+    }
+    .dest3 .relative .country:hover{
+        opacity: 1;
+    }
+    .dest4 .relative .country{
+        opacity: 0;
+    }
+    .dest4 .relative .country:hover{
+        opacity: 1;
+    }
+    .dest5 .relative .country{
+        opacity: 0;
+    }
+    .dest5 .relative .country:hover{
+        opacity: 1;
+    }
 }
 @media (max-width: 800px){
     .containerDest{

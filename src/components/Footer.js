@@ -11,9 +11,9 @@ return (
     <div className="containerFooter" id="foot">
         <div className='Lists'>
             <div className="firstDiv">
-                <ul class="footer-list">
+                <ul className="footer-list">
                     <li>
-                        <p class="footer-list-title">Top destination</p>
+                        <p className="footer-list-title">Top destination</p>
                     </li>
                     <li>
                         <a href='/'>Indonesia, Jakarta</a>
@@ -33,9 +33,9 @@ return (
                 </ul>
             </div>
             <div className="secondDiv">
-                <ul class="footer-list">
+                <ul className="footer-list">
                     <li>
-                        <p class="footer-list-title">Top destination</p>
+                        <p className="footer-list-title">Top destination</p>
                     </li>
                     <li>
                         <a href='/'>Indonesia, Jakarta</a>
@@ -55,9 +55,9 @@ return (
                 </ul>
             </div>
             <div className="thirdDiv">
-                <ul class="footer-list">
+                <ul className="footer-list">
                     <li>
-                        <p class="footer-list-title">Top destination</p>
+                        <p className="footer-list-title">Top destination</p>
                     </li>
                     <li>
                         <a href='/'>Indonesia, Jakarta</a>
