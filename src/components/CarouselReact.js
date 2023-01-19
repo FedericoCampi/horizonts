@@ -7,10 +7,10 @@ import OffCanvas from './OffCanvas';
 export function CarouselReact() {
 
     // eslint-disable-next-line no-unused-vars
-    const [img1, setImg1] = useState(require('../assets/sky.jpg'))
+    const [img1, setImg1] = useState(require('../assets/sunset.jpg'))
 
     // eslint-disable-next-line no-unused-vars
-    const [img2, setImg2] = useState(require('../assets/sunset.jpg'))
+    const [img2, setImg2] = useState(require('../assets/sky.jpg'))
 
     // eslint-disable-next-line no-unused-vars
     const [img3, setImg3] = useState(require('../assets/sunset2.jpg'))
